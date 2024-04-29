@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header_list{
+    display: flex;
+}
+
+.header_link{
+    padding: 30px 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+
+.header_link:hover{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.header_input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    padding: 8px 12px;
+}
+
+.header_input::placeholder{
+    color: #000;
+}
+
+form{
+    display: flex;
+}
+
+.header_btn{
+    padding: 8px 16px;
+    background: #000;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.header_content{
+    background: url(../images/qiz.png) no-repeat center/cover;
+    height: 1030px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.products{
+    display: flex;
+    background: #181D28;
+}
+
+.products_link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.products_link:hover{
+    background: #6B4B6B;
+}
+
+.products_item{
+    width: 25%;
+}
+
+.products_img{
+    margin-bottom: 24px;
+}
+
+.adidas_title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adidas{
+    padding: 40px 0;
+}
+
+.adidas_text{
+    max-width: 1110px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.adidas_text:nth-of-type(1){
+    margin-bottom: 18px;
+}
+
+.adidas_text:nth-of-type(2){
+    margin-bottom: 40px;
+}
+
+.adidas_img{
+    width: 100%;
+}
+
+.categorios_title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.categorios_content{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.categorios_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    row-gap: 14px;
+}
+
+.categorios_item{
+    width: 20%;
+}
+
+.categorios_link{
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+}
+
+.categorios{
+    padding-bottom: 40px;
+}
+
+.footer{
+    background: #181D28;
+    padding: 35px;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo>img{
+    width: 98px;
+}
+
+.footer_list{
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer_link{
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+}
+    
